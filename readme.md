@@ -11,19 +11,3 @@ The following classes, interfaces and annotations are used in the sample:
 * Spring Data Jpa annotations: @EnableJpaRepositories
 * Spring Security classes: @EnableWebMvcSecurity, WebSecurityConfigurerAdapter
 * Spring MVC features: @EnableWebMvc, WebMvcConfigurerAdapter, RequestMappingHandlerAdapter, InternalResourceViewResolver, ignoreDefaultModelOnRedirect 
-
-
-## Build Status ##
-
-Travis : [![Build
-Status](https://travis-ci.org/arey/spring-javaconfig-sample.png?branch=master)](https://travis-ci.org/arey/spring-javaconfig-sample)
-
-Cloudbees Jenkins : [![Build
-Status](https://javaetmoi.ci.cloudbees.com/job/spring-javaconfig-sample/badge/icon)](https://javaetmoi.ci.cloudbees.com/job/spring-javaconfig-sample/)
-
-
-## Credits ##
-
-* Uses [Maven](http://maven.apache.org/) as a build tool
-* Uses [Cloudbees](http://www.cloudbees.com/foss) and [Travis CI](www.travis-ci.org) for continuous integration builds whenever code is pushed into GitHub
-

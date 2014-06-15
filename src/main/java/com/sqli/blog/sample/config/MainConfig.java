@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javaetmoi.sample.config;
+package com.sqli.blog.sample.config;
 
 import javax.annotation.PostConstruct;
 

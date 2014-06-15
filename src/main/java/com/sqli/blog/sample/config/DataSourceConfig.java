@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javaetmoi.sample.config;
+package com.sqli.blog.sample.config;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +28,7 @@ import org.springframework.jndi.JndiObjectFactoryBean;
  * Depending active spring profile, lookup RDBMS DataSource from JNDI or from an embbeded H2 database.
  */
 @Configuration
-@PropertySource({ "classpath:com/javaetmoi/sample/config/datasource.properties" })
+@PropertySource({ "classpath:com/sqli/blog/sample/config/datasource.properties" })
 public class DataSourceConfig {
 
     @Autowired

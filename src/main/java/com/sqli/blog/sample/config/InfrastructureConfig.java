@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javaetmoi.sample.config;
+package com.sqli.blog.sample.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,7 +34,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource({ "classpath:com/javaetmoi/sample/config/infrastructure.properties" })
+@PropertySource({ "classpath:com/sqli/blog/sample/config/infrastructure.properties" })
 public class InfrastructureConfig {
 
     @Autowired

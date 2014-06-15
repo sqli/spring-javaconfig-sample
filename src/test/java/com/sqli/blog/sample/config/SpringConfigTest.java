@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javaetmoi.sample.config;
+package com.sqli.blog.sample.config;
 
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
@@ -23,6 +23,9 @@ import org.springframework.test.context.ContextHierarchy;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.context.WebApplicationContext;
+
+import com.sqli.blog.sample.config.MainConfig;
+import com.sqli.blog.sample.config.WebMvcConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

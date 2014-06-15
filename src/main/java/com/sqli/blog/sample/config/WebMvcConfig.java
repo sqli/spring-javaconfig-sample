@@ -11,7 +11,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.javaetmoi.sample.config;
+package com.sqli.blog.sample.config;
 
 import javax.annotation.PostConstruct;
 
@@ -59,7 +59,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     @Bean(name = "messageSource")
     public ReloadableResourceBundleMessageSource reloadableResourceBundleMessageSource() {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-        messageSource.setBasenames("classpath:com/javaetmoi/sample/web/messages");
+        messageSource.setBasenames("classpath:com/sqli/blog/sample/web/messages");
         messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
